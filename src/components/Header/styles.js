@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.header`
     background: var(--gradient);
     height: 5.3rem;
-
 `;
 
 export const Content = styled.div`
@@ -18,6 +17,12 @@ export const Content = styled.div`
     h1{
         font-size: 2rem;
         color: white;
+        transition: .2s;
+
+        &:hover{
+            transform: scale(1.1);
+            filter: brightness(0.9);
+        }
     }
 
     ul{

@@ -33,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         -webkit-font-smoothing: antialiased;        
         color: var(--text);
+        background-color: var(--backgroundgrey);
     }
 
     body, input, textarea, button{
