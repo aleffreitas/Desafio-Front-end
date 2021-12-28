@@ -2,26 +2,24 @@ import styled from "styled-components";
 import officeImg from '../../assets/office.png'
 
 export const Container = styled.div`
-    
-    height: 946px;
+    height: 55rem;
     color: white;
     background-image: url(${officeImg});
     background-repeat: no-repeat;
     background-size: cover;
-
-    
+    background-position: center;    
 `;
 
 export const Background = styled.div`
-    height: 946px;
+    height: 55rem;
     background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     align-items: center;
 `;
 
 export const Content = styled.div`
-    width: 750px;
-    margin-left: 4rem;
+    width: 47rem;
+    margin-left: 5%;
 
     p{
         font-size: 2rem;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.header`
     background: var(--gradient);
     height: 5.3rem;
+    width: 100%;
 `;
 
 export const Content = styled.div`
