@@ -12,6 +12,7 @@ export const Container = styled.div`
 
 export const Background = styled.div`
     height: 55rem;
+    z-index: 1;
     background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     align-items: center;
@@ -20,6 +21,7 @@ export const Background = styled.div`
 export const Content = styled.div`
     width: 47rem;
     margin-left: 5%;
+    z-index: 2;
 
     p{
         font-size: 2rem;
