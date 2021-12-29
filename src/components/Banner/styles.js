@@ -2,7 +2,6 @@ import styled from "styled-components";
 import officeImg from '../../assets/office.png'
 
 export const Container = styled.div`
-    height: 55rem;
     color: white;
     background-image: url(${officeImg});
     background-repeat: no-repeat;
