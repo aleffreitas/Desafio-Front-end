@@ -1,5 +1,6 @@
 import { Banner } from "./components/Banner/Banner";
 import { Description } from "./components/Description";
+import { Footer } from "./components/Footer";
 import { Form } from "./components/Form";
 import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
@@ -11,6 +12,7 @@ export function App() {
       <Banner />
       <Description />
       <Form />
+      <Footer />
       <GlobalStyle />
     </>
   );
