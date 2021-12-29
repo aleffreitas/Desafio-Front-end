@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    background-color: white;
-    
+    background-color: white;    
     clip-path: polygon(0 1%, 100% 0, 100% 77%, 0 90%);
 `;
 
@@ -18,7 +17,7 @@ export const Content = styled.div`
         margin-top: 2rem;
 
         h1{
-            font-size: 3rem;
+            font-size: 3.1rem;
         }
 
         p{
