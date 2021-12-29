@@ -50,7 +50,8 @@ export const Content = styled.div`
 
     }
 
-    button{
+    .btn{
+        cursor: pointer;
         height: 4rem;
         font-size: 1.4rem;
         border: none;
