@@ -36,8 +36,6 @@ export const Content = styled.div`
 
     
     input{
-        color: var(--placeholder);
-;
         width: 100%;
         height: 4rem;
         border: 1px solid #CDCDCD;
@@ -46,12 +44,15 @@ export const Content = styled.div`
         padding-left:0.8rem;
         font-size: 1.2rem;
 
+        &::placeholder{            
+            color: var(--placeholder);
+        }
+
     }
 
     button{
         height: 4rem;
         font-size: 1.4rem;
-        padding: 1rem 3rem;
         border: none;
         border-radius: 0.5rem;
         color: white;

@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         --text: #333333;
         --titleinput: #666666;
         --placeholder: #BBBBBB;
+;
         --backgrounwhite: #EAEAEA;
         --backgroundgrey: #E5E5E5;
     }

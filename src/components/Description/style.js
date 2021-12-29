@@ -3,18 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     background-color: white;    
-    clip-path: polygon(0 1%, 100% 0, 100% 77%, 0 90%);
+    clip-path: polygon(0 0%, 100% 0, 100% 79%, 0 87%);
 `;
 
 export const Content = styled.div`
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding: 5rem 5rem 0;
 
     .description{
-
-        margin-top: 2rem;
+        margin-top: 2rem;        
+        padding: 2rem 8rem 0 0;
 
         h1{
             font-size: 3.1rem;
@@ -22,10 +22,12 @@ export const Content = styled.div`
 
         p{
             font-size: 1.4rem;
-            margin: 3rem 4rem 0 0;
+            margin-top: 1.6rem;
         }
 
     }
+
+    
 
     
 `;
