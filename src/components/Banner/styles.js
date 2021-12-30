@@ -21,7 +21,7 @@ export const Content = styled.div`
     width: 47rem;
     margin-left: 5%;
     z-index: 2;
-    
+
     p{
         font-size: 2rem;
         font-weight: normal;
@@ -48,4 +48,5 @@ export const Content = styled.div`
 
         }
     }
+
 `;

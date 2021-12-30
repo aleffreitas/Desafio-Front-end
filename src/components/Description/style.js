@@ -25,5 +25,48 @@ export const Content = styled.div`
             margin-top: 1.6rem;
         }
 
-    }    
+        img{
+            max-width: 15rem;
+        }
+
+    }
+
+    @media (max-width: 1024px) {
+        
+        .description{
+            margin-top: 4rem;
+            padding: 0;
+
+            h1{
+                font-size: 3.1rem;
+            }
+
+            p{
+                font-size: 1.35rem;
+                margin-top: 1.6rem;
+            }
+        }
+
+    }
+    
+    @media (max-width: 768px) {
+        
+        .description{
+            margin-top: 0;
+            padding: 0;
+
+            h1{
+                font-size: 2.8rem;
+            }
+
+            p{
+                font-size: 1rem;
+                margin-top: 1.3rem;
+            }
+        }
+
+        img{
+            max-width: 19rem;
+        }
+    }
 `;
