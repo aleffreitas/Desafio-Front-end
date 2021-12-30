@@ -1,12 +1,13 @@
 import { Container, Content } from "./style";
 
 export function Form() {
+
     return (
         <Container>
             <Content>
                 <h1>Mande um oi, ligamos para você!</h1>
                 <p>Preencha seus dados para que a gente possa entrar em contato.</p>
-                <form action="" method="post">
+                <form action="" method="post" id="form">
                     <label>
                         Nome Completo
                         <input type="text" placeholder="Ex: Mateus Ávila Isidoro" />
@@ -18,7 +19,7 @@ export function Form() {
                     </label>
 
                     {/* <button type="button">Peça uma reunião</button> */}
-                    <input type="submit" className="btn" value="Peça uma reunião"/>
+                    <input type="submit" className="btn" value="Peça uma reunião" />
                 </form>
             </Content>
         </Container>
