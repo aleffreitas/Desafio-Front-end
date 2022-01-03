@@ -11,12 +11,12 @@ export const Content = styled.div`
     padding: 5rem;
 
     h1{
-        font-size: 3.1rem;
+        font-size: 3rem;
     }
 
     p{
         font-size: 1.4rem;
-        margin-top: 1.5rem;
+        margin-top: 1.6rem;
     }
 
     form{

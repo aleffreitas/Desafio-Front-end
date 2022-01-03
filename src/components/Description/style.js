@@ -9,45 +9,31 @@ export const Container = styled.div`
 export const Content = styled.div`
     max-width: 1200px;
     display: flex;
+    gap: 2rem;
     margin: 0 auto;
     padding: 5rem 5rem 0;
 
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+        margin-top: 1.6rem;
+    }
+
+    .img{
+        max-width: 400px;
+
+        /* img{
+            width: 90%;
+        } */
+    }
+
     .description{
-        margin-top: 2rem;        
-        padding: 2rem 8rem 0 0;
-
-        h1{
-            font-size: 3.1rem;
-        }
-
-        p{
-            font-size: 1.4rem;
-            margin-top: 1.6rem;
-        }
-
-        img{
-            max-width: 15rem;
-        }
-
+        width: 50%;
     }
 
-    @media (max-width: 1024px) {
-        
-        .description{
-            margin-top: 4rem;
-            padding: 0;
-
-            h1{
-                font-size: 3.1rem;
-            }
-
-            p{
-                font-size: 1.35rem;
-                margin-top: 1.6rem;
-            }
-        }
-
-    }
     
     @media (max-width: 768px) {
         
