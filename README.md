@@ -62,14 +62,14 @@ A aplicação roda em **http://localhost:3000/Desafio-Front-end**.
 
 <div id="demonstration">
 
-## **Mostrando a aplicação funcionando**
+## **Mostrando a aplicação funcionando**    
+    
 
-
-    <img src="./github/meufreela.gif" />
-
+    <img src="./github/meufreela.gif"/>
 <br>
 
 </div>
+
 
 
 <h3 align="left">Que tal você testar esse Projeto?</h3>
