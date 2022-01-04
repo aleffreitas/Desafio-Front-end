@@ -21,6 +21,8 @@ O cliente, **que é um tremendo mão de vaca**, solicitou um website simples que
 <p align="center">
   <img alt="ReactJS" src="https://img.shields.io/badge/ReactJS-61dafb?style=for-the-badge&logo=react&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=white">
+  <img alt="StyledComponents" src="https://img.shields.io/badge/StyledComponents-424242?style=for-the-badge&logo=styledcomponents&logoColor=pink">
+  
 </p>
 
 <br>
