@@ -78,4 +78,8 @@ export const Content = styled.div`
             display: none;
         }        
     }
+
+    @media (max-width: 425px) {
+        padding: 5rem 3rem;
+    }
 `;

@@ -11,16 +11,18 @@ export const Container = styled.div`
 
 export const Background = styled.div`
     height: 55rem;
-    z-index: 1;
     background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     align-items: center;
+
+    @media (max-width: 425px){
+        height: 30rem;
+    }
 `;
 
 export const Content = styled.div`
     width: 47rem;
     margin-left: 5%;
-    z-index: 2;
 
     p{
         font-size: 2rem;
@@ -28,7 +30,6 @@ export const Content = styled.div`
     }
 
     h1{
-        font-weight: bold;
         font-size: 5rem;
     }
 
@@ -45,7 +46,26 @@ export const Content = styled.div`
         &:hover{
             filter: brightness(0.9);
             transform: scale(1.1);
+        }
+    }
 
+    @media (max-width: 426px) {
+
+        width: 80%;
+        margin: 0 auto;
+        
+        p{
+            font-size: 2rem;
+            font-weight: normal;
+        }
+
+        h1{            
+            font-size: 3rem;
+        }
+
+        button{
+            width: 100%;
+            margin: 2.6rem 0 0 0;            
         }
     }
 
