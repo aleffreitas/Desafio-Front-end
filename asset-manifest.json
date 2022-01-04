@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/Desafio-Front-end/static/js/main.96b82f50.js",
+    "static/media/office.png": "/Desafio-Front-end/static/media/office.3bad0e6eb2f37b51a172.png",
+    "static/media/man.png": "/Desafio-Front-end/static/media/man.ae1345e67d2d3d236edc.png",
+    "static/media/instagram.svg": "/Desafio-Front-end/static/media/instagram.8aa145ea103b695ccd878bcdfacc46bc.svg",
+    "static/media/twitter.svg": "/Desafio-Front-end/static/media/twitter.6114e411698951c6043ef6052471a253.svg",
+    "static/media/linkedin.svg": "/Desafio-Front-end/static/media/linkedin.1db41646ec1dd6d3558c7479e2cb43d7.svg",
+    "index.html": "/Desafio-Front-end/index.html",
+    "main.96b82f50.js.map": "/Desafio-Front-end/static/js/main.96b82f50.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.96b82f50.js"
+  ]
+}
