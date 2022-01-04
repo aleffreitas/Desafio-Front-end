@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
     background-color: white;    
     clip-path: polygon(0 0%, 100% 0, 100% 79%, 0 87%);
 `;
@@ -9,50 +8,74 @@ export const Container = styled.div`
 export const Content = styled.div`
     max-width: 1200px;
     display: flex;
-    gap: 2rem;
     margin: 0 auto;
     padding: 5rem 5rem 0;
 
-    h1{
-        font-size: 3rem;
-    }
-
-    p{
-        font-size: 1.4rem;
-        margin-top: 1.6rem;
-    }
-
-    .img{
-        max-width: 400px;
-
-        /* img{
-            width: 90%;
-        } */
-    }
-
     .description{
+
         width: 50%;
+        margin-top: 3rem;
+
+        h1{
+            font-size: 2.8rem;
+        }
+
+        p{
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+        }
     }
 
-    
+    .image{
+        width: 50%;
+        text-align: center;
+
+        img{
+            max-width: 400px;
+        }
+    }
+
     @media (max-width: 768px) {
         
+        gap: 1rem;
+        padding: 4rem 2rem 1rem;
+
         .description{
-            margin-top: 0;
-            padding: 0;
+            height: 300px;
+            margin-top: 0;   
 
             h1{
-                font-size: 2.8rem;
+                font-size: 2rem;
             }
 
             p{
                 font-size: 1rem;
-                margin-top: 1.3rem;
+                margin-top: 1rem;
             }
         }
 
-        img{
-            max-width: 19rem;
+        .image{
+            text-align: right;
+
+            img{
+                width: 100%;
+            }
         }
+    }
+
+    @media (max-width: 508px) {
+                
+        padding: 4rem 2rem;
+        display: block;
+
+        .description{
+
+            height: auto;            
+            width: 100%;              
+        }
+
+        .image{
+            display: none;
+        }        
     }
 `;

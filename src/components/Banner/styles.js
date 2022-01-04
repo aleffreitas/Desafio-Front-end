@@ -6,7 +6,7 @@ export const Container = styled.div`
     background-image: url(${officeImg});
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
 `;
 
 export const Background = styled.div`
