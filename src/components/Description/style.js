@@ -38,7 +38,7 @@ export const Content = styled.div`
     @media (max-width: 768px) {
         
         gap: 1rem;
-        padding: 4rem 2rem 1rem;
+        padding: 5rem 5rem 1rem;
 
         .description{
             height: 300px;
@@ -63,9 +63,9 @@ export const Content = styled.div`
         }
     }
 
-    @media (max-width: 508px) {
+    @media (max-width: 586px) {
                 
-        padding: 4rem 2rem;
+        padding: 5rem 4rem;
         display: block;
 
         .description{

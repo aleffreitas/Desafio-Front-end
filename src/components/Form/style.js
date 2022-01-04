@@ -52,7 +52,6 @@ export const Content = styled.div`
 
     .btn{
         cursor: pointer;
-        height: 4rem;
         font-size: 1.4rem;
         border: none;
         border-radius: 0.5rem;
@@ -64,5 +63,30 @@ export const Content = styled.div`
             filter: brightness(0.9);
             transform: scale(1.03);
         }
+    }
+
+    @media (max-width: 768px) {
+
+        h1{
+            font-size: 2rem;
+        }
+
+        p{
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+
+        form{
+            display: block;
+        }
+        
+        input{
+            margin-bottom: 1rem;
+        }
+
+        .btn{
+            margin-top: 1rem;
+        }
+        
     }
 `;
