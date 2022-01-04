@@ -67,6 +67,8 @@ A aplicação roda em **http://localhost:3000/Desafio-Front-end**.
 
 <img src="./github/meufreela.gif"/>
 
+<h2>Deploy feito na Branch gh-pages</h2>
+
 <h3 align="left">Que tal você testar esse Projeto?</h3>
 
 - [Clique Aqui para Testar!](https://aleffreitas.github.io/Desafio-Front-end/)
